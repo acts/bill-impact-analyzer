@@ -1,0 +1,13 @@
+License scan 2026-11-19 — 41 production packages
+  MIT: 17
+  Apache-2.0: 9
+  BSD-2-Clause: 7
+  ISC: 3
+  LGPL-3.0-or-later: 2
+  CC-BY-4.0: 1
+  BSD-3-Clause: 1
+  0BSD: 1
+Accepted exceptions (license-exceptions.json):
+  @img/sharp-libvips-linux-x64@1.3.4: LGPL-3.0-or-later
+  @img/sharp-libvips-linuxmusl-x64@1.3.4: LGPL-3.0-or-later
+Flagged: none

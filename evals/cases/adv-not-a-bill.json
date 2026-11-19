@@ -1,0 +1,1 @@
+{ "id": "adv-not-a-bill", "kind": "adversarial", "bill_file": "adv-not-a-bill.txt", "description": "Not a bill at all. A good answer is NO_IT_IMPACT (or a schema-valid refusal the analyst can see).", "expected_codes": ["NO_IT_IMPACT"], "allowed_extra_codes": [], "must_not_codes": [] }

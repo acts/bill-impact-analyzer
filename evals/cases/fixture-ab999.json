@@ -1,0 +1,1 @@
+{ "id": "fixture-ab999", "kind": "core", "bill_file": "fixture-ab999.txt", "description": "Synthetic bill: annual report, client notice, data sharing, deadline.", "expected_codes": ["NEW_REPORT", "CLIENT_NOTICE", "DATA_SHARING"], "allowed_extra_codes": ["DEADLINE", "PII_HANDLING", "NEW_DATA_COLLECTION"], "must_not_codes": ["NO_IT_IMPACT"] }

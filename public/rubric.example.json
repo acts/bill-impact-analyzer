@@ -1,0 +1,69 @@
+{
+  "rubric_version": "example-1",
+  "name": "EXAMPLE ONLY — made-up numbers, not any agency's real estimates",
+  "hours_per_position": 1776,
+  "rules": [
+    {
+      "code": "NEW_REPORT",
+      "when": { "frequency": ["annual", "semiannual", "quarterly", "monthly"] },
+      "teams": {
+        "development": [{ "class": "IT Specialist I", "hours": 160 }],
+        "operations": [{ "class": "IT Associate", "hours": 40 }]
+      },
+      "recurring": true,
+      "note": "Recurring report: build once, run every cycle (example numbers)."
+    },
+    {
+      "code": "NEW_REPORT",
+      "teams": { "development": [{ "class": "IT Specialist I", "hours": 120 }] },
+      "recurring": false,
+      "note": "One-time report (example numbers)."
+    },
+    {
+      "code": "ELIG_RULE_CHANGE",
+      "teams": {
+        "development": [{ "class": "IT Specialist II", "hours": 320 }, { "class": "IT Specialist I", "hours": 160 }],
+        "operations": [{ "class": "IT Associate", "hours": 40 }]
+      },
+      "recurring": false
+    },
+    {
+      "code": "CLIENT_NOTICE",
+      "teams": { "development": [{ "class": "IT Specialist I", "hours": 80 }] },
+      "recurring": false
+    },
+    {
+      "code": "DATA_SHARING",
+      "teams": {
+        "development": [{ "class": "IT Specialist II", "hours": 400 }],
+        "security": [{ "class": "IT Specialist I", "hours": 120 }],
+        "operations": [{ "class": "IT Specialist I", "hours": 80 }]
+      },
+      "recurring": false
+    },
+    {
+      "code": "PII_HANDLING",
+      "teams": { "security": [{ "class": "IT Specialist II", "hours": 160 }] },
+      "recurring": false
+    },
+    {
+      "code": "NEW_SYSTEM",
+      "teams": {
+        "project_management": [{ "class": "IT Manager I", "hours": 400 }, { "class": "IT Specialist II", "hours": 1776 }],
+        "development": [{ "class": "IT Specialist III", "hours": 1776 }],
+        "security": [{ "class": "IT Specialist II", "hours": 400 }],
+        "operations": [{ "class": "IT Specialist I", "hours": 400 }]
+      },
+      "recurring": false
+    },
+    {
+      "code": "NEW_PROGRAM",
+      "teams": {
+        "project_management": [{ "class": "IT Specialist II", "hours": 400 }],
+        "development": [{ "class": "IT Specialist II", "hours": 800 }],
+        "operations": [{ "class": "IT Associate", "hours": 200 }]
+      },
+      "recurring": false
+    }
+  ]
+}
