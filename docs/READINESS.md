@@ -12,12 +12,12 @@
 - [x] 0.1 Identity shape decided and recorded — D-1, `docs/ARCHITECTURE.md`
 - [ ] 0.2 Restore — N/A (see below)
 - [ ] 0.3 Audit trail — N/A (see below)
-- [ ] 0.4 Secret scan clean in CI; rotation rehearsed — gitleaks + rubric guard in CI; **first CI run pending**; no secrets exist to rotate
+- [x] 0.4 Secret scan clean in CI — gitleaks "no leaks found" + rubric guard, CI run on PR #1 (2026-11-19); no secrets exist, so nothing to rotate
 - [ ] 0.5 Dependency alerts on — `.github/dependabot.yml` committed; **turn on Dependabot alerts in repo settings**; `npm audit --omit=dev`: 0 vulnerabilities (2026-11-19)
 - [ ] 0.6 Error tracking — N/A (see below)
 - [ ] 0.7 Uptime probe — N/A (see below)
-- [ ] 0.8 Axe in CI, zero critical/serious on `/` and `/nonsense-page` (404) — passing locally 2026-11-19; **first CI run pending**
-- [ ] 0.9 CI green on main; staging = Vercel previews (D-3); no migrations — **first CI run pending**
+- [x] 0.8 Axe in CI, zero critical/serious on `/` and `/nonsense-page` (404) — 2 of 2 routes (the app has one page + the 404); green in CI on PR #1, 2026-11-19
+- [ ] 0.9 CI green on PR #1 (2026-11-19); staging = Vercel previews (D-3); no migrations — **green on main after merge**
 - [x] 0.10 FDE doc pack present and verified against code (2026-11-19)
 - [x] 0.11 Data inventory — `docs/HANDOVER.md`
 - [x] 0.12 License scan run; flagged item has decision record — `docs/evidence/licenses-2026-11-19.txt`, D-6
@@ -37,7 +37,7 @@
 
 | Row | Gap | Owner | Fix trigger or date |
 |---|---|---|---|
-| 0.4, 0.8, 0.9 | CI has not run on GitHub yet | Jeff | First PR push |
+| 0.9 | CI green on the PR, not yet on main | Jeff | Merge of PR #1 |
 | 0.5 | Dependabot alerts toggle in repo settings | Jeff | Before merge |
 | 0.13 | Production header scan not filed | Jeff / Claude | First production deploy |
 | AI §1 | Eval set has 4 of 12 cases; no model scored | Jeff (pick 8 bills) | Before first real use |

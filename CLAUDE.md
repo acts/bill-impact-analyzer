@@ -40,8 +40,8 @@ Personal web tool that turns a California bill into a draft IT workload workshee
 
 ## Current State
 
-- **Where things stand:** v0.1 built: all of FR-1–FR-10. 45 unit tests and 4 browser tests pass locally; production build clean; headers verified by GET on a local production server.
-- **Mid-flight:** PR #1 (`initial-build`) awaiting Jeff's review; not yet deployed to Vercel.
+- **Where things stand:** v0.1 built: all of FR-1–FR-10. CI green on PR #1 (unit 45/45, e2e + axe 4/4, gitleaks, rubric guard, audit, licenses, build).
+- **Mid-flight:** PR #1 (https://github.com/acts/bill-impact-analyzer/pull/1, branch `initial-build`) awaiting Jeff's review; not yet deployed to Vercel.
 - **Next task:** connect the repo to Vercel, add the Firewall rate-limit rule, verify a real bill loads (leginfo was unreachable from the build sandbox), file headers evidence from production.
 - **Known gotchas:** the leginfo HTML parser was built against known markers, not a live page — confirm on the first preview and adjust `src/lib/billText.ts` if `structured` comes back false. Playwright reuses a running server locally; kill stale `next start` processes after rebuilding.
 

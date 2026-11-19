@@ -12,7 +12,7 @@
 
 **Mid-flight, and exactly where it stopped**
 
-Branch `initial-build` pushed; awaiting Jeff's review and merge. Not yet deployed to Vercel.
+PR #1 open (https://github.com/acts/bill-impact-analyzer/pull/1), CI green; awaiting Jeff's review and merge. Not yet deployed to Vercel.
 
 **Next step**
 
@@ -28,4 +28,5 @@ Branch `initial-build` pushed; awaiting Jeff's review and merge. Not yet deploye
 
 - Tests: 45/45 unit (vitest); 4/4 browser (Playwright on Chrome: core loop, CSP exfiltration block, axe on `/` and 404). Mutation check: disabling the SSRF guard and the fence escaping made 3 tests fail.
 - Build: PASS (`next build`, Next 16.4.6); typecheck and lint clean; `npm audit --omit=dev` 0 vulnerabilities.
+- CI on GitHub: green on 8418604 (first run failed: `.gitignore` hid the made-up rubric fixture; fixed by allowlisting it).
 - Tree and branch: clean and pushed to `initial-build`.
