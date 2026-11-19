@@ -1,0 +1,12 @@
+{
+  "taxonomy_version": "1",
+  "prompt_version": "extract-v1",
+  "bill": { "id": "202520260AB999", "version": "Amended in Assembly March 12, 2026" },
+  "drivers": [
+    { "code": "NEW_REPORT", "summary": "Annual report to the Legislature on outcomes", "section": "Sec. 1, WIC 11450.5(a)", "quote": "shall report annually to the Legislature on program outcomes", "frequency": "annual", "effective_date": "2028-01-01", "confidence": "high" },
+    { "code": "CLIENT_NOTICE", "summary": "Written notice to each recipient", "section": "Sec. 1, WIC 11450.5(b)", "quote": "shall notify each recipient in writing of the change", "frequency": "one_time", "effective_date": "2027-07-01", "confidence": "high" },
+    { "code": "DATA_SHARING", "summary": "Share eligibility data with counties and FTB", "section": "Sec. 1, WIC 11450.5(c)", "quote": "share eligibility data with each county & the Franchise Tax Board", "frequency": "ongoing", "effective_date": null, "confidence": "medium" },
+    { "code": "DEADLINE", "summary": "Notices due", "section": "Sec. 1, WIC 11450.5(b)", "quote": "no later than July 1, 2027", "frequency": "one_time", "effective_date": "2027-07-01", "confidence": "high" }
+  ],
+  "not_found": ["NEW_SYSTEM", "PROCUREMENT"]
+}

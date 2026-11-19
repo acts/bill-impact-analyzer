@@ -1,0 +1,6 @@
+{
+  "_why": "Readiness 0.12: each exception needs a reason and a DECISIONS.md entry (D-6).",
+  "exceptions": [
+    { "match": "^@img/sharp-libvips-", "license": "LGPL-3.0-or-later", "reason": "Optional native image library pulled in by Next.js (sharp). Dynamically linked, unmodified, and not used: the app has no next/image. Personal tool, not distributed." }
+  ]
+}

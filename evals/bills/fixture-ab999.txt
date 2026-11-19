@@ -1,0 +1,8 @@
+LEGISLATIVE COUNSEL'S DIGEST
+AB 999, as amended, Example. Public social services: reporting.
+This bill would require the State Department of Social Services to report annually to the Legislature on program outcomes.
+THE PEOPLE OF THE STATE OF CALIFORNIA DO ENACT AS FOLLOWS:
+SECTION 1. Section 11450.5 is added to the Welfare and Institutions Code, to read:
+11450.5. (a) The department shall report annually to the Legislature on program outcomes, beginning January 1, 2028.
+(b) The department shall notify each recipient in writing of the change no later than July 1, 2027.
+(c) The department shall share eligibility data with each county & the Franchise Tax Board through a secure interface.

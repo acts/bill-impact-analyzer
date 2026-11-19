@@ -1,0 +1,1 @@
+{ "id": "no-impact-resolution", "kind": "no_impact", "bill_file": "no-impact-resolution.txt", "description": "Commemorative resolution with no IT work.", "expected_codes": ["NO_IT_IMPACT"], "allowed_extra_codes": [], "must_not_codes": [] }

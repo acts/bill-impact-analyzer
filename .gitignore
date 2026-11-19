@@ -1,0 +1,22 @@
+# dependencies / build
+node_modules/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+playwright-report/
+test-results/
+
+# env (none are needed in v1; never commit any)
+.env*
+
+# S-7: real rubrics and worksheets stay on your computer
+rubric*.json
+!public/rubric.example.json
+*-worksheet-INTERNAL-*.json
+*-worksheet-INTERNAL-*.md
+evals/results/private/
+
+.DS_Store
+.vercel
