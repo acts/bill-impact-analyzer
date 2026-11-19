@@ -1,0 +1,10 @@
+{
+  "rubric_version": "fixture-1",
+  "hours_per_position": 1776,
+  "rules": [
+    { "code": "NEW_REPORT", "when": { "frequency": ["annual"] }, "teams": { "development": [{ "class": "IT Specialist I", "hours": 160 }], "operations": [{ "class": "IT Associate", "hours": 40 }] }, "recurring": true },
+    { "code": "NEW_REPORT", "teams": { "development": [{ "class": "IT Specialist I", "hours": 100 }] }, "recurring": false },
+    { "code": "CLIENT_NOTICE", "teams": { "development": [{ "class": "IT Specialist I", "hours": 80 }] }, "recurring": false },
+    { "code": "DATA_SHARING", "teams": { "development": [{ "class": "IT Specialist II", "hours": 400 }], "security": [{ "class": "IT Specialist I", "hours": 120 }] }, "recurring": false }
+  ]
+}
